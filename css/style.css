@@ -4,6 +4,7 @@
 
 /*HEADER*/
 
+/*nav*/
 
 header .col_content{
     background-color:#12162b;
@@ -17,7 +18,8 @@ header .col_content{
     text-align: right;
 }
 
-.header-menu li{
+.header-menu li,
+.green-section .menu li{
     display: inline-block;
     padding-left: 10px;
 }
@@ -29,4 +31,27 @@ header .col_content{
 
 .burger-menu{
     text-align: right;
+}
+
+/*jumbotron*/
+
+.green-section{
+    background-color: #18a373;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    /*test*/
+    height: 200px;
+}
+/*sovrascritto bootstrap*/
+.green-section h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.star{
+    font-size: 15px;
+    height: 15px;
+    width: 15px;
+    color: white;
 }
