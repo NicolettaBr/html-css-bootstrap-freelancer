@@ -3,3 +3,15 @@
 
 
 /*HEADER*/
+
+.left{
+    background-color: red;
+}
+
+.right{
+    background-color: blue;
+}
+
+.burger{
+    background-color: green;
+}
