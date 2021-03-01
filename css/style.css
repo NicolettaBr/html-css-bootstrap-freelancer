@@ -4,14 +4,29 @@
 
 /*HEADER*/
 
-.left{
-    background-color: red;
+
+header .col_content{
+    background-color:#12162b;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
 }
 
-.right{
-    background-color: blue;
+.header-menu{
+    list-style-type: none;
+    text-align: right;
 }
 
-.burger{
-    background-color: green;
+.header-menu li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.header-menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.burger-menu{
+    text-align: right;
 }
