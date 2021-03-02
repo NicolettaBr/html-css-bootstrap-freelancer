@@ -80,13 +80,26 @@ header .top-nav{
     margin-bottom: 15px;
 }
 
-.btn-download{
+.btn-download,
+.btn-send{
     background-color: #3cb087;
     color: white;
     border: 1px solid white;
 }
 /*contact section*/
 
+#form-contact input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+    border-radius: 0;
+  
+}
+
+#form-contact .text-box input{
+    margin-top: 50px;
+}
 
 
 /*FINE MAIN*/
