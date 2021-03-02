@@ -101,5 +101,19 @@ header .top-nav{
     margin-top: 50px;
 }
 
-
 /*FINE MAIN*/
+
+/*FOOTER*/
+
+.footer-top{
+    background-color: #244966;
+}
+
+.box-footer{
+    background-color: coral;
+    height: 100px;
+}
+
+
+
+/*FINE FOOTER*/
