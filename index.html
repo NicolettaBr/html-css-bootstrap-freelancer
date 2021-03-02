@@ -8,73 +8,83 @@
 
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
     <!--HEADER-->
-
     <header>
-       <!--nav-->
-        <nav>
+
+        <!--top nav-->
+        <div class="top-nav">
             <div class="container">
-
-                <div class="col_content">
-
+                <nav class="header-nav">
                     <div class="row">
 
-                        <div class="col-xs-6 col-sm-6 col-md-6 left">start bootstrap</div>
+                        <div class="col-xs-6 "><strong> start bootstrap</strong></div>
+
+                        <div class="col-xs-6 ">
+
+                            <div class="nav-content text-right">
+
+                                <ul class="menu hidden-xs">
+                                    <li>
+                                        <a href="#">portfolio</a>
+                                    </li>
     
-                        <div class="hidden-xs col-sm-6 col-md-6 right">
-                            <ul class="header-menu">
-                                <li>
-                                    <a href="">portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="">about</a>
-                                </li>
-                                <li>
-                                    <a href="">contacts</a>
-                                </li>
-                               
-                            </ul>
-                        </div>
-
-                        <!--burger menu-->
-                        <div class="col-xs-6 hidden-sm hidden-md burger">
-
-                            <div class="burger-menu">
-                                <i class="fas fa-bars"></i>
+                                    <li>
+                                        <a href="#">account</a>
+                                    </li>
+    
+                                    <li>
+                                        <a href="#">contact</a>
+                                    </li>
+                                </ul>
+    
+                                <div class="visible-xs-block burger">
+                                    <i class="fas fa-bars"></i>
+                                </div>
                             </div>
-
-                        </div>  
+                           
+                        </div>
                     </div>
-                </div>
-               
-            </div>
-        </nav>
-        <!--fine nav-->
-
-        <!--jumbotron-->
-
-        <div class="container">
-            <div class="green-section">
-
-                <h2>start bootstrap</h2>
-                
-                <div class="star">
-                    <i class="far fa-starship"></i>
-                </div>
-                    
-                <ul class="menu">
-                    <li>graphic artist</li>
-                    <li>web designer</li>
-                    <li>illustrator</li>
-                </ul>
+                </nav>
             </div>
         </div>
+
+        <!--banner-->
+
+        <div class="banner green-section section-padding">
+            <div class="container">
+
+                <div class="img-avatar">
+                    <img class=".img-responsive center-block" src="img/avatar.svg" alt="avatar">
+                </div>
+
+                <div class="section-intro">  
+
+                    <h2>start bootstrap</h2>
+
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                    <div>
+                        <span>graphic artist</span>
+                        <span>web designer</span>
+                        <span>illustrator</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
     </header>
-    
+
+   <!--FINE HEADER-->
+
+   
 </body>
 </html>
