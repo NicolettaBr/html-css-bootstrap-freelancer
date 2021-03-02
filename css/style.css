@@ -79,4 +79,14 @@ header .top-nav{
 .content-about{
     margin-bottom: 15px;
 }
+
+.btn-download{
+    background-color: #3cb087;
+    color: white;
+    border: 1px solid white;
+}
+/*contact section*/
+
+
+
 /*FINE MAIN*/
